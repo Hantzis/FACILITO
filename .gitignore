@@ -1,1 +1,22 @@
 # Created by .ignore support plugin (hsz.mobi)
+.DS_Store
+FACILITO/frontend/node_modules
+FACILITO/frontend/dist
+
+# local env files
+FACILITO/frontend/.env.local
+FACILITO/frontend/.env.*.local
+
+# Log files
+FACILITO/frontend/npm-debug.log*
+FACILITO/frontend/yarn-debug.log*
+FACILITO/frontend/yarn-error.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
