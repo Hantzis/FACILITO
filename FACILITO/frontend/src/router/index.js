@@ -1,14 +1,21 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 import Home from '../views/Home.vue';
+import ListBook from '@/components/Book/ListBook.vue';
 
 Vue.use(VueRouter);
+Vue.use(ListBook);
 
 const routes = [
   {
     path: '/',
     name: 'home',
     component: Home,
+  },
+  {
+    path: '/books/',
+    name: 'list-book',
+    component: ListBook,
   },
   {
     path: '/about',
