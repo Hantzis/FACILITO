@@ -5,7 +5,8 @@
       <router-link to="/books/">Libros</router-link> |
       <router-link to="/about">About</router-link>
     </div>
-    <router-view/>
+    <router-view />
+    <p>Footer prueba xD</p>
   </div>
 </template>
 
